@@ -1,0 +1,12 @@
+# Dependencies used by the paper's offline pipeline. No web/API server or UI packages.
+openai>=1.0,<2
+python-dotenv>=1.0
+numpy>=1.26,<3
+torch>=2.2
+faiss-cpu>=1.8
+python-docx>=1.1
+doc2docx>=0.2
+tqdm>=4.66
+dynaconf>=3.2
+toml>=0.10
+ujson>=5.10

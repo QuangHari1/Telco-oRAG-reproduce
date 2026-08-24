@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 from tqdm.auto import tqdm
 from doc2docx import convert
 from docx import Document
@@ -14,9 +15,14 @@ def read_docx(file_path):
         logging.error(f"Failed to read DOCX file at {file_path}: {e}")
         return None
 
-def get_documents(series_list, folder_path=r'.\\3GPP-Release18\\Documents', storage_name='Documents.db', dataset_name="Standard"):
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+
+def get_documents(series_list, folder_path=None, storage_name='Documents.db', dataset_name="Standard"):
     """Retrieve and process documents from a folder, storing them in a database if not already present."""
-    storage = Storage(fr'.\\3GPP-Release18\{storage_name}')
+    corpus_root = PROJECT_ROOT / "3GPP-Release18"
+    folder_path = Path(folder_path) if folder_path is not None else corpus_root / "Documents"
+    storage = Storage(corpus_root / storage_name)
     storage.create_dataset(dataset_name)
     
     document_ds = []
@@ -57,4 +63,3 @@ def process_document(file_path, filename, storage, document_ds, dataset_name):
             data_dict = {'id': filename, 'text': content, 'source': filename}
             document_ds.append(data_dict)
             storage.insert_dict(dataset_name, data_dict)
-

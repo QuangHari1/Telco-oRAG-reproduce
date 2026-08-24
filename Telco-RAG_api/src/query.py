@@ -1,5 +1,6 @@
 import os
 import json
+from pathlib import Path
 import numpy as np
 import torch
 import traceback
@@ -7,7 +8,6 @@ from tqdm.auto import tqdm
 from torch.utils.data import DataLoader, TensorDataset
 from src.retrieval import find_nearest_neighbors_faiss
 from src.index import get_faiss_batch_index
-from src.online_retrieval.pdf_reader import fetch_snippets_and_search
 from src.embeddings import get_embeddings
 from src.get_definitions import define_TA_question
 from src.input import get_documents
@@ -15,7 +15,6 @@ from src.chunking import chunk_doc
 from src.LLMs.LLM import submit_prompt_flex, a_submit_prompt_flex, embedding
 from src.validator import validator_RAG
 from src.NNRouter import NNRouter
-from api.LLM import a_submit_prompt_flex_UI, submit_prompt_flex_UI
 
 class Query:
     def __init__(self, query, context):
@@ -27,7 +26,8 @@ class Query:
         self.wg = []
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model = NNRouter()
-        self.model.load_state_dict(torch.load(r'.\\src\\resources\\router_new.pth', map_location='cpu'))
+        router_path = Path(__file__).resolve().parent / "resources" / "router_new.pth"
+        self.model.load_state_dict(torch.load(router_path, map_location='cpu'))
         self.model.to(self.device)
         self.model.eval()
         self.original_labels_mapping = np.arange(21, 39)
@@ -50,7 +50,8 @@ class Query:
             generated_output_str = submit_prompt_flex_UI(row_context, model=model_name) if UI_flag else submit_prompt_flex(row_context, model=model_name)
             if generated_output_str != "NO": 
                 self.context = generated_output_str 
-                print(self.context)
+                if os.environ.get("TELCO_RAG_QUIET") != "1":
+                    print(self.context)
                 self.enhanced_query = self.query + '\n' + self.context
         except Exception as e:
             print(f"An error occurred: {e}")
@@ -67,7 +68,7 @@ class Query:
     
     @staticmethod
     def get_col2(embeddings_list):
-        file_path = r'.\\src\\resources\\series_description.json'
+        file_path = Path(__file__).resolve().parent / "resources" / "series_description.json"
         if os.path.isfile(file_path):
             with open(file_path, 'r') as file:
                 series_dict = json.load(file)
@@ -176,6 +177,8 @@ class Query:
 
 
     async def get_online_context(self, model_name='gpt-4o-mini', validator_flag= True, options=None):
+        from src.online_retrieval.pdf_reader import fetch_snippets_and_search
+
         if options is None:
             querytoOSINT = f"""Rephrase the following question so that it can be a concise google search query to find the answer to my original question (O.S.I.N.T. syle)
 
@@ -197,6 +200,9 @@ class Query:
         return online_info
     
     async def get_online_context_UI(self, model_name='gpt-4o-mini', validator_flag= True, options=None):
+        from api.LLM import a_submit_prompt_flex_UI
+        from src.online_retrieval.pdf_reader import fetch_snippets_and_search
+
         if options is None:
             querytoOSINT = f"""Rephrase the fallowing question so that it can be a concise google search query to find the answer to my original question (O.S.I.N.T. syle)
 
@@ -217,6 +223,3 @@ class Query:
 
 
         return online_info
-
-    
-    

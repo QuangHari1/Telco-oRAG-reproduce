@@ -1,19 +1,11 @@
 import openai
-import tiktoken
+import os
 
 import asyncio
-
-import anthropic # type: ignore
-from mistralai.async_client import MistralAsyncClient
-from mistralai.client import MistralClient
-
-from together import AsyncTogether, Together
-
 
 import time
 
 from src.LLMs.settings.config import get_settings
-from groq import Groq, AsyncGroq
 
 import platform
 if platform.system()=='Windows':
@@ -124,7 +116,7 @@ class RateLimiter:
             self.next_call_time = max(self.next_call_time + 1 / self.calls_per_second, now)
 
 
-def submit_prompt_flex(prompt, model="gpt-4o-mini", output_json=False):
+def submit_prompt_flex(prompt, model="gpt-4o-mini", output_json=False, max_tokens=None):
     if model in models_fullnames:
         model_fullname = models_fullnames[model]
         endpoint = models_endpoints[model]
@@ -148,6 +140,8 @@ def submit_prompt_flex(prompt, model="gpt-4o-mini", output_json=False):
         )
         generate = client.chat.completions.create
     elif endpoint == "groq":
+        from groq import Groq
+
         print(f"Endpoint: {endpoint}")
         print(f"Model: {model_fullname}")
         client = Groq(
@@ -155,23 +149,30 @@ def submit_prompt_flex(prompt, model="gpt-4o-mini", output_json=False):
         )
         generate = client.chat.completions.create
     elif endpoint == "together":
+        from together import Together
+
         print(f"Endpoint: {endpoint}")
         print(f"Model: {model_fullname}")     
         client = Together(api_key=together_api)  
         generate = client.chat.completions.create 
     elif endpoint == "openai":
-        print(f"Endpoint: {endpoint}")
-        print(f"Model: {model_fullname}")
+        if os.environ.get("TELCO_RAG_QUIET") != "1":
+            print(f"Endpoint: {endpoint}")
+            print(f"Model: {model_fullname}")
         client = openai.OpenAI(
             api_key=openai.api_key,
         )
         generate = client.chat.completions.create
     elif endpoint == "mistral":
+        from mistralai.client import MistralClient
+
         print(f"Endpoint: {endpoint}")
         print(f"Model: {model_fullname}")
         client = MistralClient(api_key=mistral_api)
         generate = client.chat
     elif endpoint == "anthropic":
+        import anthropic
+
         print(f"Endpoint: {endpoint}")
         print(f"Model: {model_fullname}")
         client = anthropic.Anthropic(
@@ -193,13 +194,14 @@ def submit_prompt_flex(prompt, model="gpt-4o-mini", output_json=False):
         generate = client.chat.completions.create        
 
     if output_json:
-        generated_output = generate(
-          model=model_fullname,
-          response_format={"type":"json_object"},
-          messages=[
-              {"role": "user", "content": prompt}, 
-            ]
-        )
+        request = {
+            "model": model_fullname,
+            "response_format": {"type": "json_object"},
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        if max_tokens is not None and endpoint != "anthropic":
+            request["max_tokens"] = max_tokens
+        generated_output = generate(**request)
         if endpoint != "anthropic":
             output = generated_output.choices[0].message.content
         else:
@@ -209,12 +211,13 @@ def submit_prompt_flex(prompt, model="gpt-4o-mini", output_json=False):
         output = output[:output.rfind("}")+1]
         
     else:
-        generated_output = generate(
-          model=model_fullname,
-          messages=[
-              {"role": "user", "content": prompt}, 
-            ]
-        )
+        request = {
+            "model": model_fullname,
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        if max_tokens is not None and endpoint != "anthropic":
+            request["max_tokens"] = max_tokens
+        generated_output = generate(**request)
         if endpoint != "anthropic":
             output = generated_output.choices[0].message.content
         else:
@@ -247,6 +250,8 @@ async def a_submit_prompt_flex(prompt, model="gpt-4o-mini", output_json=False):
         )
         generate = client.chat.completions.create
     elif endpoint == "groq":
+        from groq import AsyncGroq
+
         print(f"Endpoint: {endpoint}")
         print(f"Model: {model_fullname}")
         client = AsyncGroq(
@@ -254,6 +259,8 @@ async def a_submit_prompt_flex(prompt, model="gpt-4o-mini", output_json=False):
         )
         generate = client.chat.completions.create
     elif endpoint == "together":
+        from together import AsyncTogether
+
         print(f"Endpoint: {endpoint}")
         print(f"Model: {model_fullname}")     
         client = AsyncTogether(api_key=together_api)  
@@ -266,11 +273,15 @@ async def a_submit_prompt_flex(prompt, model="gpt-4o-mini", output_json=False):
         )
         generate = client.chat.completions.create
     elif endpoint == "mistral":
+        from mistralai.async_client import MistralAsyncClient
+
         print(f"Endpoint: {endpoint}")
         print(f"Model: {model_fullname}")
         client = MistralAsyncClient(api_key=mistral_api)
         generate = client.chat
     elif endpoint == "anthropic":
+        import anthropic
+
         print(f"Endpoint: {endpoint}")
         print(f"Model: {model_fullname}")
         client = anthropic.AsyncAnthropic(

@@ -1,6 +1,7 @@
 import logging
 import numpy as np
 import traceback
+from pathlib import Path
 from src.LLMs.LLM import embedding
 
 def get_embeddings_OpenAILarge_byapi(text):
@@ -13,9 +14,10 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 def get_embeddings(series_docs):
     """Add embeddings to each chunk of documents from pre-saved NumPy files."""
+    corpus_root = Path(__file__).resolve().parents[1] / "3GPP-Release18"
     for doc_key, doc_chunks in series_docs.items():
         try:
-            embeddings = np.load(f'3GPP-Release18\Embeddings\Embeddings{doc_key}.npy')
+            embeddings = np.load(corpus_root / "Embeddings" / f"Embeddings{doc_key}.npy")
         except FileNotFoundError:
             logging.error(f"Embedding file for {doc_key} not found.")
             continue
@@ -43,4 +45,3 @@ def get_embeddings(series_docs):
         
         series_docs[doc_key] = updated_chunks
     return series_docs
-

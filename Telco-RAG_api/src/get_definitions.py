@@ -1,4 +1,9 @@
 from docx import Document
+from functools import lru_cache
+from pathlib import Path
+
+
+VOCABULARY_PATH = Path(__file__).resolve().parent / "resources" / "3GPP_vocabulary.docx"
 
 def read_docx(file_path):
     """Reads a .docx file and categorizes its content into terms and abbreviations."""
@@ -37,7 +42,7 @@ def preprocess(text, lowercase=True):
     """Converts text to lowercase and removes punctuation."""
     if lowercase:
         text = text.lower()
-    punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+    punctuations = '''!()-[]{};:'",<>./?@#$%^&*_~'''
     for char in punctuations:
         text = text.replace(char, '')
     return text
@@ -81,9 +86,14 @@ def find_terms_and_abbreviations_in_sentence(terms_dict, abbreviations_dict, sen
 
     return formatted_terms, formatted_abbreviations
 
+@lru_cache(maxsize=1)
+def vocabulary_definitions():
+    """Load the paper vocabulary once; all benchmark workers share it."""
+    return read_docx(VOCABULARY_PATH)
+
+
 def get_def(sentence):
-    file_path = r".\\src\\resources\\3GPP_vocabulary.docx"
-    terms_definitions, abbreviations_definitions = read_docx(file_path)
+    terms_definitions, abbreviations_definitions = vocabulary_definitions()
     formatted_terms, formatted_abbreviations = find_terms_and_abbreviations_in_sentence(terms_definitions, abbreviations_definitions, sentence)
     defined = []
     for term in formatted_terms:
@@ -92,8 +102,7 @@ def get_def(sentence):
         defined.append(abbreviation[:3])
 
 def define_TA_question(sentence):
-    file_path = r".\\src\\resources\\3GPP_vocabulary.docx"
-    terms_definitions, abbreviations_definitions = read_docx(file_path)
+    terms_definitions, abbreviations_definitions = vocabulary_definitions()
     formatted_terms, formatted_abbreviations = find_terms_and_abbreviations_in_sentence(terms_definitions, abbreviations_definitions, sentence)
     terms = '\n'.join(formatted_terms)
     abbreviations = '\n'.join(formatted_abbreviations)

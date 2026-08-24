@@ -2,7 +2,6 @@
 import concurrent.futures
 import time
 from src.LLMs.LLM import submit_prompt_flex
-from api.LLM import submit_prompt_flex_UI
 
 def LLM_validator_snippet(paragraph, query, model_name):
     input_prompt = f"""You are an telecom expert and you are given the following snippet that describes the content of a document.
@@ -19,6 +18,8 @@ def LLM_validator_snippet(paragraph, query, model_name):
     return response
 
 def LLM_validator_snippet_UI(paragraph, query, model_name):
+    from api.LLM import submit_prompt_flex_UI
+
     input_prompt = f"""You are an telecom expert and you are given the following snippet that describes the content of a document.
 
     Query: {query}
@@ -46,6 +47,8 @@ def LLM_validator_RAG(paragraph, query, model_name):
     return response
 
 def LLM_validator_RAG_UI(paragraph, query, model_name):
+    from api.LLM import submit_prompt_flex_UI
+
     input_prompt = f"""Tell if the following paragraph contains relevant information, possibly helpful to respond the given query in a precise and complete way!
     Query: {query}
     Paragraph: {paragraph}
@@ -139,4 +142,3 @@ def validator_RAG(question, context_list, model_name='gpt-4o-mini', k=10, UI_fla
     print(f'Overall check lasted for {duration:.4f} seconds')
     
     return final_list
-

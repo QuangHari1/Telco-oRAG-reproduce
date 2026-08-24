@@ -1,10 +1,12 @@
 import pathlib
-from os import listdir
+import os
 from os.path import abspath, dirname, join
-import toml
 from dynaconf import Dynaconf
+from dotenv import load_dotenv
 
 current_dir = dirname(abspath(__file__))
+project_dir = pathlib.Path(current_dir).parents[2]
+load_dotenv(project_dir / ".env", override=False)
 # setting_dir = join(current_dir, "settings")
 setting_dir = current_dir
 
@@ -12,7 +14,7 @@ toml_files = list(pathlib.Path(join(setting_dir)).glob('*.toml'))
 
 
 default_settings_dict = {
-"openai_api_key" : "",
+"openai_api_key" : os.environ.get("OPENAI_API_KEY", ""),
 "any_api_key" : "",
 "mistral_api" : "",
 "anthropic_api" : "",
@@ -24,16 +26,11 @@ default_settings_dict = {
 "fireworks_api" : ""
 }
 
-if not toml_files:
-    default_toml_path = join(setting_dir, '.secrets.toml')
-    with open(default_toml_path, 'w') as file:
-        toml.dump(default_settings_dict, file)
-    toml_files.append(default_toml_path)
-    
 global_settings = Dynaconf(
     envvar_prefix=False,
     merge_enabled=True,
     settings_files=toml_files,
+    **default_settings_dict,
 )
 
 def get_settings():

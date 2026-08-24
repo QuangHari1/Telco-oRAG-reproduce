@@ -33,6 +33,7 @@ yarn-error.log*
 
 #toml files
 *.toml
+!/Telco-RAG_api/pyproject.toml
 
 #internal files
 /internal
@@ -42,6 +43,10 @@ yarn-error.log*
 next-env.d.ts
 
 /Telco-RAG_api/3GPP-Release18/
+/Telco-RAG_api/datasets/
+/Telco-RAG_api/results/
+/Telco-RAG_api/.venv/
+/Telco-RAG_api/.env
 
 **/__pycache__/
 /new_venv4
