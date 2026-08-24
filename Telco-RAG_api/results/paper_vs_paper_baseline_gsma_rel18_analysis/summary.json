@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "label": "Paper offline",
+    "input_rows": 1817,
+    "unique_completed_questions": 1810,
+    "correct": 1114,
+    "total": 1810,
+    "accuracy": 0.6154696132596685
+  },
+  "baseline": {
+    "label": "Paper baseline GSMA Rel-18",
+    "input_rows": 1810,
+    "unique_completed_questions": 1810,
+    "correct": 1352,
+    "total": 1810,
+    "accuracy": 0.7469613259668508
+  },
+  "matched_questions": 1810,
+  "paper_unmatched_completed": 0,
+  "baseline_unmatched_completed": 0,
+  "unresolved_paper_indices": [],
+  "unresolved_baseline_question_ids": [],
+  "paired_correctness": {
+    "both_correct": 1023,
+    "paper_only": 91,
+    "baseline_only": 329,
+    "both_wrong": 367
+  },
+  "input_files": {
+    "paper_results": "/home/quanghari/project/vht/Telco-oRAG/Telco-RAG/Telco-RAG_api/results/paper_offline_option_only_gpt-4o-mini_teleqna.jsonl",
+    "baseline_results": "/home/quanghari/project/vht/Telco-RAG/newbaseline/results/teleqna/paper-baseline-gsma-rel18.jsonl",
+    "baseline_dataset": "/home/quanghari/project/vht/Telco-RAG/dataset/teleqna/TeleQnA.json"
+  }
+}

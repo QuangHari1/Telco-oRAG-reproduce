@@ -57,6 +57,45 @@ crash. Failed rows stay in the audit trail and are retried. The terminal prints
 smoke test, use `--limit 3`; use `--overwrite` only when intentionally
 discarding that result checkpoint.
 
+## Compare the upstream MCQ prompt on the final 200 questions
+
+The existing strict-prompt checkpoint is preserved. To isolate only the final
+MCQ prompt/scorer, run a separate checkpoint over indices 1610--1809 (the last
+200 records) with the template and list-based parser in the released
+`src.generate.check_question()` implementation:
+
+```bash
+UV_CACHE_DIR=/tmp/uv-cache uv run scripts/run_offline_teleqna_reference_prompt.py --workers 2
+UV_CACHE_DIR=/tmp/uv-cache uv run scripts/compare_offline_prompt_runs.py
+```
+
+The first command is an API-backed, paid run. It preserves the same model,
+two-pass retrieval, `k=10`, no web search, and no validator; only the final
+prompt changes to `Answer option <option_id>` and removes the strict runner's
+eight-token cap. The comparison command is local-only. It writes paired
+correctness and option-agreement metrics to
+`results/paper_offline_prompt_comparison_last200.json`.
+
+## Compare the paper run with the independent newbaseline
+
+Generate a multi-page PDF, six PNG charts, CSV lists of questions that only one
+run answers correctly, and category/release accuracy tables:
+
+```bash
+UV_CACHE_DIR=/tmp/uv-cache uv run scripts/analyze_paper_vs_newbaseline.py
+```
+
+By default the script uses the complete 1,810-row
+`paper-baseline-gsma-rel18.jsonl` checkpoint from the sibling `newbaseline`
+checkout. It matches only completed questions shared by both files and records
+that count in `summary.json`. To compare a different checkpoint, provide its
+path with `--baseline-results` (and `--baseline-manifest` if its manifest is
+not beside the JSONL).
+
+The report includes an exploratory literal-term chart for terms where the
+baseline has a higher error rate. It only reports terms seen in at least five
+questions; treat it as a lead for inspection, not a statistical conclusion.
+
 ## What this result means
 
 Do not compare its accuracy directly with a paper table. The paper uses 2,000

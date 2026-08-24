@@ -8,6 +8,7 @@ dependencies = [
   "dynaconf>=3.2",
   "faiss-cpu>=1.8",
   "huggingface-hub>=1.0",
+  "matplotlib>=3.8",
   "numpy>=1.26,<3",
   "openai>=1.0,<2",
   "python-docx>=1.1",

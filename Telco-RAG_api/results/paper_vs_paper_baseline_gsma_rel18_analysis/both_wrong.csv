@@ -1,0 +1,368 @@
+question,question_id,category,release,paper_correct,baseline_correct,paper_prediction,baseline_prediction,expected,paper_index
+"In online charging, how are chargeable events transformed into charging events? [3GPP Release 18]",question 14,Standards specifications,18,False,False,Option 4,option 1,option 2,4
+Which NGAP procedure is used for inter-system load balancing? [3GPP Release 17],question 37,Standards overview,17,False,False,Option 2,option 2,option 3,8
+What are DCI formats with CRC scrambled by MCCH-RNTI or G-RNTI referred to as? [3GPP Release 17],question 60,Standards specifications,17,False,False,Option 1,option 1,option 2,15
+What triggers the NF/NF Service Context Transfer Push procedure? [3GPP Release 18],question 80,Standards specifications,18,False,False,Option 4,option 4,option 3,20
+What is the purpose of the group identifier called 'External Group ID'? [3GPP Release 14],question 121,Standards specifications,14,False,False,Option 5,option 3,option 2,27
+How does a non-supporting UE select a core network operator to serve it in a shared network? [3GPP Release 17],question 185,Standards specifications,17,False,False,Option 1,option 1,option 2,40
+What is SIPTO at the Local Network? [3GPP Release 17],question 206,Standards specifications,17,False,False,Option 3,option 3,option 1,48
+What are the peak packet data rates supported by the Evolved Packet System on the radio access bearer? [3GPP Release 17],question 249,Standards specifications,17,False,False,Option 3,option 3,option 1,53
+What criteria are considered for network broadcast geographic area coverage management? [3GPP Release 18],question 268,Standards specifications,18,False,False,Option 3,option 3,option 2,55
+Which power saving scheme achieves power consumption reduction by potentially skipping PDCCH monitoring at subsequent slots of PDSCH/PUSCH transmission? [3GPP Release 16],question 282,Standards specifications,16,False,False,Option 1,option 1,option 3,58
+What type of authentication and authorization is required for accessing a 5G VN group? [3GPP Release 18],question 289,Standards specifications,18,False,False,Option 2,option 3,option 5,59
+What is one of the requirements for interworking between fixed access and Evolved Packet Core? [3GPP Release 17],question 384,Standards specifications,17,False,False,Option 2,option 4,option 3,73
+What inputs are required for the Nmfaf_3daDataManagement_Configure service operation? [3GPP Release 18],question 398,Standards specifications,18,False,False,Option 2,option 2,option 1,75
+What are the enhanced RRM requirements in DRX in connected mode? [3GPP Release 14],question 405,Standards specifications,14,False,False,Option 2,option 3,option 1,76
+What is the scrambling sequence generator initialized with for a PDCCH with the CRC scrambled by G-RNTI in a common search space? [3GPP Release 17],question 558,Standards specifications,17,False,False,Option 3,option 5,option 1,99
+What is the role of the serving network in fraud control? [3GPP Release 18],question 596,Standards specifications,18,False,False,Option 1,option 3,option 2,105
+How is the LMF connected to the NG-RAN node in the positioning architecture? [3GPP Release 16],question 654,Standards overview,16,False,False,Option 3,option 3,option 5,122
+Which channels are used for the performance requirements in Narrowband IoT? [3GPP Release 18],question 674,Standards specifications,18,False,False,Option 1,option 1,option 3,126
+What happens when the Control Plane data back-off timer is running? [3GPP Release 18],question 717,Standards specifications,18,False,False,Option 2,option 2,option 1,133
+"In a split gNB architecture, how is RACH configuration conflict resolved? [3GPP Release 17]",question 761,Standards specifications,17,False,False,Option 2,option 3,option 5,137
+When is DCP configured on the PCell? [3GPP Release 17],question 813,Standards specifications,17,False,False,Option 4,option 4,option 5,144
+What is a requirement for clock synchronisation of the 5G system? [3GPP Release 19],question 815,Standards specifications,19,False,False,Option 1,option 1,option 5,145
+What is the purpose of the Service Enabler Architecture Layer (SEAL) for Verticals? [3GPP Release 16],question 823,Standards overview,16,False,False,Option 3,option 3,option 2,147
+What is the maximum value of E-UTRA carrier frequency? [3GPP Release 17],question 855,Standards specifications,17,False,False,Option 2,option 2,option 1,153
+"What is the numerology based on for PSS, SSS, and PBCH? [3GPP Release 17]",question 856,Standards specifications,17,False,False,Option 1,option 2,option 3,154
+What does the Robust Call Setup for VoLTE subscriber in LTE Work Item aim to address? [3GPP Release 14],question 888,Standards overview,14,False,False,Option 3,option 2,option 1,158
+What is the purpose of the User Service Identity Module (USIM)? [3GPP Release 18],question 890,Standards specifications,18,False,False,Option 5,option 5,option 2,159
+What is the purpose of Immediate Divert in IP-PBX? [3GPP Release 17],question 892,Standards specifications,17,False,False,Option 5,option 5,option 1,160
+What is the role of the home environment in the delegation of charging authority? [3GPP Release 18],question 955,Standards specifications,18,False,False,Option 1,option 2,option 4,171
+What is an acceptable cell? [3GPP Release 17],question 976,Standards specifications,17,False,False,Option 3,option 3,option 1,173
+What should URSP rules based on AF guidance not be set as? [3GPP Release 18],question 1029,Standards specifications,18,False,False,Option 3,option 3,option 1,182
+How can power saving be enabled during active-time? [3GPP Release 18],question 1066,Standards specifications,18,False,False,Option 2,option 2,option 4,191
+When does the NG-RAN perform NG-RAN paging before reporting the UE's location? [3GPP Release 18],question 1134,Standards specifications,18,False,False,Option 4,option 2,option 3,204
+Which specifications define the Network Resource Model (NRM) information service and solution set for 5G networks and network slicing? [3GPP Release 15],question 1144,Standards overview,15,False,False,Option 5,option 5,option 1,206
+What is the purpose of fraud control in the home environment? [3GPP Release 18],question 1161,Standards specifications,18,False,False,Option 4,option 4,option 2,209
+What is the maximum number of CBR range configurations for sidelink communication congestion control? [3GPP Release 17],question 1185,Standards specifications,17,False,False,Option 12,option 2,option 1,216
+Which standard defines the integration of the 5G System into a TSN data network (DN)? [3GPP Release 18],question 1196,Standards specifications,18,False,False,Option 2,option 4,option 5,219
+What does the SMF do when it receives the enabling request for analytics information exposure from a UE? [3GPP Release 18],question 1226,Standards specifications,18,False,False,Option 1,option 5,option 2,225
+What is the purpose of the xMB API? [3GPP Release 16],question 1258,Standards overview,16,False,False,Option 1,option 1,option 4,232
+What is the SNR target for higher CBWs assuming 16 and 20 dB? [3GPP Release 18],question 1274,Standards specifications,18,False,False,Option 4,option 2,option 3,234
+What is the role of a Relay Node (RN) in E-UTRAN? [3GPP Release 17],question 1311,Standards specifications,17,False,False,Option 2,option 2,option 1,240
+What is the purpose of the N26 interface in the non-roaming architecture for interworking between 5GS and EPC? [3GPP Release 18],question 1321,Standards specifications,18,False,False,Option 2,option 3,option 1,243
+What are the high-level features specified for 5G Location Services? [3GPP Release 16],question 1391,Standards overview,16,False,False,Option 3,option 3,option 2,258
+What does the NWDAF containing MTLF consider when using untrusted AF(s) as data sources? [3GPP Release 18],question 1411,Standards specifications,18,False,False,Option 3,option 3,option 1,263
+"What does a '0' value for a bit of the bitmap, provided by dormancyGroupOutsideActiveTime, indicate? [3GPP Release 17]",question 1425,Standards specifications,17,False,False,Option 3,option 3,option 4,264
+What does the 5G system need to support for the tactile and multi-modal communication service? [3GPP Release 17],question 1426,Standards specifications,17,False,False,Option 3,option 3,option 2,265
+What is the relative increase in cable loss per meter from 43.5 GHz to 71 GHz? [3GPP Release 18],question 1449,Standards specifications,18,False,False,Option 4,option 2,option 1,268
+What is the polarization slant angle for a purely vertically polarized antenna element? [3GPP Release 18],question 1458,Standards specifications,18,False,False,Option 4,option 4,option 1,269
+Which event notification is used to monitor the movement of candidate UEs in/out of the monitoring area? [3GPP Release 18],question 1479,Standards specifications,18,False,False,Option 1,option 1,option 4,275
+What is the purpose of the HR-SBO PDU Session in roaming? [3GPP Release 18],question 1480,Standards specifications,18,False,False,Option 4,option 4,option 2,276
+What does the UE ignore regarding cell access restrictions for cell reselection when camping on E-UTRA connected to 5GC? [3GPP Release 17],question 1508,Standards specifications,17,False,False,Option 1,option 1,option 2,280
+What is a multi-modal communication service? [3GPP Release 17],question 1545,Standards specifications,17,False,False,Option 4,option 4,option 3,286
+What is one of the challenges of energy saving schemes in the radio access network (RAN)? [3GPP Release 17],question 1550,Standards specifications,17,False,False,Option 5,option 5,option 1,287
+What is the purpose of the WI 'OAM14-FILMEAS'? [3GPP Release 14],question 1583,Standards specifications,14,False,False,Option 5,option 5,option 1,294
+What is the capacity of eNB-ID in a Macro eNB? [3GPP Release 14],question 1703,Standards specifications,14,False,False,Option 2,option 3,option 1,309
+What is the function of a Base Transceiver Station (BTS)? [3GPP Release 17],question 1721,Standards specifications,17,False,False,Option 2,option 2,option 3,314
+How is service continuity supported for specific slice(s)? [3GPP Release 17],question 1724,Standards overview,17,False,False,Option 3,option 4,option 1,315
+What does the Location Service Request report provide? [3GPP Release 17],question 1728,Standards specifications,17,False,False,Option 4,option 1,option 2,316
+Which of the following options is used by NWDAF to collect input data on the number of UEs registered in a S-NSSAI or S-NSSAI and NSI ID combination? [3GPP Release 18],question 1734,Standards specifications,18,False,False,Option 2,option 2,option 4,317
+Which reference point is used to force traffic between a WLAN UE and PDG to go through the WAG? [3GPP Release 17],question 1750,Standards specifications,17,False,False,Option 4,option 4,option 5,319
+What triggers the UE mobility and AF relocation? [3GPP Release 18],question 1758,Standards specifications,18,False,False,Option 1,option 2,option 3,321
+What additional functions does the eNB support in case of SIPTO@LN with collocated L-GW? [3GPP Release 17],question 1855,Standards specifications,17,False,False,Option 4,option 4,option 2,336
+When is the minimum applicable scheduling offset restriction applied? [3GPP Release 17],question 1918,Standards specifications,17,False,False,Option 5,option 2,option 1,346
+What happens when the Target NF/NF Service triggers the NF/NF Service Context Transfer Pull procedure? [3GPP Release 18],question 1981,Standards specifications,18,False,False,Option 2,option 2,option 4,353
+Which supplementary service is unaffected by the user's ability to undergo voice call continuity? [3GPP Release 18],question 1988,Standards specifications,18,False,False,Option 1,option 2,option 3,355
+Which identity is used for UE identification temporarily used for scheduling during the random access procedure? [3GPP Release 17],question 2025,Standards specifications,17,False,False,Option 2,option 2,option 3,363
+What is the purpose of the ISIM-specific information? [3GPP Release 18],question 2048,Standards specifications,18,False,False,Option 2,option 2,option 5,365
+When does authentication (charging/billing network) occur in order to get access to services? [3GPP Release 18],question 2060,Standards specifications,18,False,False,Option 5,option 5,option 1,367
+What is a Paging Occasion (PO)? [3GPP Release 17],question 2061,Standards specifications,17,False,False,Option 2,option 2,option 5,368
+Which entity may redirect the AF to a local NEF? [3GPP Release 18],question 2106,Standards specifications,18,False,False,Option 3,option 1,option 4,378
+What is the provision of services? [3GPP Release 18],question 2145,Standards specifications,18,False,False,Option 2,option 2,option 5,384
+What two functionalities were introduced in the enhancement of the Dedicated Core Networks selection mechanism? [3GPP Release 14],question 2152,Standards overview,14,False,False,Option 2,option 2,option 1,386
+What aspects of the Disaster Roaming service are specified in TS 22.011 and TS 22.261? [3GPP Release 17],question 2174,Standards overview,17,False,False,Option 2,option 2,option 5,390
+Which frequency range should the channel model support? [3GPP Release 18],question 2185,Standards specifications,18,False,False,Option 3,option 4,option 5,392
+What can a Target UE subscription profile specify? [3GPP Release 17],question 2214,Standards specifications,17,False,False,Option 5,option 5,option 1,402
+What is a Premises Radio Access Station (PRAS)? [3GPP Release 17],question 2216,Standards specifications,17,False,False,Option 1,option 1,option 4,403
+What is the purpose of the PDCCH-based power saving signal/channel for wake-up purpose? [3GPP Release 16],question 2254,Standards specifications,16,False,False,Option 2,option 2,option 5,407
+What physical layer measurement quantity can be used for sidelink? [3GPP Release 17],question 2268,Standards specifications,17,False,False,Option 1,option 1,option 3,411
+What type of bearer is used for IMS Signalling and IMS voice in the NSA architecture? [3GPP Release 15],question 2278,Standards overview,15,False,False,Option 4,option 4,option 2,413
+What is the responsibility of the NG-RAN regarding the maximum UP integrity protection data rate? [3GPP Release 18],question 2352,Standards specifications,18,False,False,Option 2,option 4,option 3,422
+How is the SCG of the UE suspended in RRC_INACTIVE state? [3GPP Release 17],question 2355,Standards specifications,17,False,False,Option 1,option 1,option 5,423
+What authentication method does the 5G system support for legacy non-3GPP devices accessing a 5G LAN-VN? [3GPP Release 17],question 2367,Standards specifications,17,False,False,Option 4,option 4,option 3,427
+What are the power components recommended to be considered for RRM measurement power saving evaluation in the CONNECTED state? [3GPP Release 16],question 2382,Standards specifications,16,False,False,Option 2,option 2,option 5,430
+Which entities are dedicated for interworking between 5GS and EPC? [3GPP Release 18],question 2396,Standards specifications,18,False,False,Option 1,option 3,option 2,432
+What is the function of the Home Subscriber Server (HSS)? [3GPP Release 17],question 2408,Standards specifications,17,False,False,Option 2,option 4,option 1,435
+What is the purpose of N19-based traffic forwarding? [3GPP Release 18],question 2523,Standards specifications,18,False,False,Option 5,option 3,option 1,459
+What can the NW configure for NES-capable UEs? [3GPP Release 18],question 2533,Standards specifications,18,False,False,Option 4,option 4,option 3,460
+What is the polarization of a single polarized antenna? [3GPP Release 17],question 2537,Standards specifications,17,False,False,Option 1,option 4,option 2,461
+What is the purpose of the Flow Based Charging (FBC) in 5G? [3GPP Release 15],question 2590,Standards overview,15,False,False,Option 3,option 2,option 4,466
+What is the main function of a Radio Network Controller (RNC)? [3GPP Release 17],question 2652,Standards specifications,17,False,False,Option 4,option 4,option 1,474
+What control mechanism allows/prevents UEs from accessing the network based on their capabilities? [3GPP Release 18],question 2666,Standards specifications,18,False,False,Option 2,option 2,option 3,477
+How does a Multi-USIM UE modify the timing of paging occasions in 5GS? [3GPP Release 17],question 2782,Standards overview,17,False,False,Option 1,option 5,option 2,492
+What is the purpose of the periodic CSI-RS resource configuration indexes? [3GPP Release 17],question 2783,Standards specifications,17,False,False,Option 2,option 3,option 1,493
+How is the starting position of a bandwidth part defined? [3GPP Release 17],question 2788,Standards specifications,17,False,False,Option 1,option 1,option 4,494
+What is the purpose of NWDAF in the 5G system architecture? [3GPP Release 18],question 2835,Standards specifications,18,False,False,Option 3,option 3,option 1,500
+What factors are considered when deciding on service delivery? [3GPP Release 18],question 2898,Standards specifications,18,False,False,Option 5,option 5,option 4,508
+How do non-supporting UEs handle the broadcast system information in a shared network? [3GPP Release 17],question 2947,Standards specifications,17,False,False,Option 3,option 2,option 4,514
+What does the QoE measurement configuration received from OAM or CN encapsulated in? [3GPP Release 14],question 2977,Standards specifications,14,False,False,Option 1,option 3,option 5,518
+How does the RNC indicate the UE selected core network operator to the CN for supporting UEs? [3GPP Release 17],question 3046,Standards specifications,17,False,False,Option 5,option 1,option 3,530
+When does a UE start and stop PDCCH monitoring according to search space sets with different group indexes? [3GPP Release 17],question 3072,Standards specifications,17,False,False,Option 1,option 3,option 5,537
+What information is incorporated into the CDRs produced by IMS network elements for inter operator accounting purposes? [3GPP Release 18],question 3103,Standards specifications,18,False,False,Option 1,option 3,option 2,543
+What does the NEF (PFDF) do after determining whether to create/update/delete PFDs? [3GPP Release 18],question 3108,Standards specifications,18,False,False,Option 4,option 4,option 2,545
+What conditions must be met for voice call continuity during emergency calls? [3GPP Release 18],question 3143,Standards specifications,18,False,False,Option 2,option 2,option 1,550
+What does the NG-RAN do immediately following step 1a of the Connection Inactive procedure? [3GPP Release 18],question 3189,Standards specifications,18,False,False,Option 2,option 2,option 1,552
+Who decides on the service delivery in a roaming scenario? [3GPP Release 18],question 3216,Standards specifications,18,False,False,Option 1,option 4,option 3,554
+What is one major limitation of Release 15 in 5GC that Release 16 Network Slicing addresses? [3GPP Release 16],question 3222,Standards overview,16,False,False,Option 2,option 2,option 1,556
+What controls the additional behavior of the SMF for 3GPP PS Data Off? [3GPP Release 18],question 3236,Standards specifications,18,False,False,Option 2,option 2,option 1,559
+What is the purpose of the S8HR architecture for VoLTE roaming? [3GPP Release 14],question 3249,Standards overview,14,False,False,Option 1,option 1,option 4,560
+How can UE power saving be enabled by relaxing measurements for RLM/BFD? [3GPP Release 17],question 3256,Standards overview,17,False,False,Option 1,option 1,option 3,562
+What is the purpose of the IM-GSN in a GLR-equipped VPLMN? [3GPP Release 17],question 3294,Standards specifications,17,False,False,Option 1,option 1,option 3,570
+What is the impact of mobility between a 5G core network and an EPC (4G) on the user experience? [3GPP Release 15],question 3297,Standards overview,15,False,False,Option 1,option 1,option 3,571
+Which specification defines Lawful Interception functionality? [3GPP Release 18],question 3309,Standards specifications,18,False,False,Option 2,option 3,option 4,572
+"In addition to 5G-based Ethernet links, what other ethernet transports should the 3GPP system support clock synchronization for high performance Ethernet applications? [3GPP Release 19]",question 3316,Standards specifications,19,False,False,Option 3,option 3,option 4,574
+In which case is the HARQ-ACK message transmitted on PUCCH? [3GPP Release 17],question 3342,Standards specifications,17,False,False,Option 1,option 1,option 2,578
+How does the UE determine the p0-PUCCH-Value value if it is not provided any of pdsch-HARQ-ACK-Codebook? [3GPP Release 17],question 3352,Standards specifications,17,False,False,Option 5,option 5,option 3,580
+How does the NWDAF provide new analytics to the NF in continuous reporting? [3GPP Release 18],question 3391,Standards specifications,18,False,False,Option 2,option 5,option 1,588
+Which specifications describe the access technologies offered by the BSS? [3GPP Release 17],question 3409,Standards specifications,17,False,False,Option 2,option 1,option 3,593
+What does the demodulation enhancement feature in LTE enable the UE to do? [3GPP Release 14],question 3434,Standards specifications,14,False,False,Option 3,option 4,option 2,598
+Which evaluation method is considered as the baseline? [3GPP Release 18],question 3439,Standards specifications,18,False,False,Option 3,option 3,option 2,599
+What is the typical height at which the BSs are mounted in the indoor scenario? [3GPP Release 18],question 3447,Standards specifications,18,False,False,Option 4,option 4,option 3,601
+Which of the following physical signals are used by the physical layer but do not carry information originating from higher layers? [3GPP Release 17],question 3473,Standards specifications,17,False,False,Option 4,option 1,option 3,607
+Which protocol stack is used for the S5 interface? [3GPP Release 17],question 3474,Standards specifications,17,False,False,Option 4,option 4,option 5,608
+What is the purpose of the work item 5G_HYPOS? [3GPP Release 16],question 3488,Standards overview,16,False,False,Option 5,option 5,option 1,612
+What information triggers the activation or deactivation of access stratum time distribution for a UE? [3GPP Release 18],question 3527,Standards specifications,18,False,False,Option 4,option 4,option 3,614
+When is the SN Modification Confirm message sent to the MN? [3GPP Release 17],question 3547,Standards specifications,17,False,False,Option 3,option 3,option 1,618
+Which protocol(s) crossing the Rf reference point should support real-time transactions? [3GPP Release 18],question 3558,Standards specifications,18,False,False,Option 4,option 2,option 3,621
+What is the definition of a resource unit for multi-tone NPUSCH with UL-SCH transmission? [3GPP Release 17],question 3559,Standards specifications,17,False,False,Option 4,option 5,option 3,622
+How are charges paid to the adjacent party in the settlement of charges? [3GPP Release 18],question 3569,Standards specifications,18,False,False,Option 2,option 2,option 5,625
+What does the 5G LAN VN group service charging specify? [3GPP Release 17],question 3572,Standards overview,17,False,False,Option 1,option 1,option 3,628
+What does the NWDAF notify in the procedure of providing PDU Session traffic analytics? [3GPP Release 18],question 3585,Standards specifications,18,False,False,Option 4,option 1,option 2,631
+What is the duration of a frame? [3GPP Release 17],question 3597,Standards specifications,17,False,False,Option 1,option 1,option 3,634
+What information shall be provided to the LCS client? [3GPP Release 17],question 3615,Standards specifications,17,False,False,Option 4,option 4,option 1,639
+What release cause is indicated when the UE fails the mobility from NR procedure? [3GPP Release 17],question 3630,Standards specifications,17,False,False,Option 4,option 4,option 3,641
+How many DL HARQ processes are introduced for UEs supporting full-duplex FDD operation? [3GPP Release 14],question 3722,Standards overview,14,False,False,Option 8,option 2,option 3,654
+What is the capacity of Cell-ID in an eNB? [3GPP Release 14],question 3740,Standards specifications,14,False,False,Option 1,option 3,option 4,657
+How can a UE be indicated to transmit a PSFCH with HARQ-ACK information? [3GPP Release 17],question 3751,Standards specifications,17,False,False,Option 2,option 2,option 4,660
+What is the purpose of the Work Item 'Enhancement of Private Network support for NG-RAN'? [3GPP Release 17],question 3787,Standards overview,17,False,False,Option 4,option 4,option 5,665
+What is the main purpose of the 5G system in supporting cyber-physical control applications using wireless indirect network connection? [3GPP Release 19],question 3788,Standards specifications,19,False,False,Option 3,option 3,option 2,666
+"When a UE performs simultaneous SL and UL transmissions, which link has higher priority? [3GPP Release 17]",question 3793,Standards specifications,17,False,False,Option 3,option 3,option 4,667
+Which field is ignored by UEs supporting crs-IntfMitig while crs-IntfMitigEnabled is included in SIB1? [3GPP Release 17],question 3813,Standards specifications,17,False,False,Option 3,option 3,option 4,670
+What is the indication for a restriction on emergency calls? [3GPP Release 17],question 3844,Standards specifications,17,False,False,Option 1,option 1,option 5,679
+What is the purpose of EAS Relocation on Release 16 capabilities? [3GPP Release 18],question 3853,Standards specifications,18,False,False,Option 3,option 3,option 4,683
+What is the inter RAT mobility characteristic of handover from E-UTRA to NR? [3GPP Release 17],question 3883,Standards specifications,17,False,False,Option 2,option 1,option 4,688
+What does SIPTO@LN stand for? [3GPP Release 17],question 3906,Standards specifications,17,False,False,Option 3,option 3,option 2,690
+What is the redundancy version number used for the initial transmission or autonomous retransmission of an initial transport block for a PUSCH transmission? [3GPP Release 17],question 3918,Standards specifications,17,False,False,Option 0,,option 1,693
+What is specified in TS 24.588 related to V2X services? [3GPP Release 17],question 3937,Standards overview,17,False,False,Option 3,option 3,option 2,697
+What happens when a call undergoes voice call continuity and becomes barred in the target domain/system? [3GPP Release 18],question 3964,Standards specifications,18,False,False,Option 2,option 2,option 3,703
+What does the Nchf_ConvergedCharging service Create Operation achieve for SMS Charging in the 5G System Architecture Phase 1? [3GPP Release 15],question 4036,Standards overview,15,False,False,Option 3,option 3,option 1,717
+When does the TSCTSF control the (g)PTP-based time synchronization service without AF request? [3GPP Release 18],question 4037,Standards specifications,18,False,False,Option 4,option 4,option 2,718
+What message is sent by the MS to the network to request the release of a GMM context? [3GPP Release 18],question 4081,Standards specifications,18,False,False,Option 2,option 2,option 1,727
+Which document specifies the MUSIM-specific rejection cause for EPS? [3GPP Release 17],question 4089,Standards overview,17,False,False,Option 1,option 3,option 5,730
+Which feature was introduced in Rel-15 to improve transmission reliability in Carrier Aggregation (CA) for mode-4? [3GPP Release 15],question 4117,Standards overview,15,False,False,Option 5,option 5,option 3,737
+What are examples of management services that can be produced by an entity in a mobile network? [3GPP Release 17],question 4146,Standards specifications,17,False,False,Option 4,option 4,option 2,740
+What additional function does the MME support in case of SIPTO@LN with stand-alone gateway? [3GPP Release 17],question 4181,Standards specifications,17,False,False,Option 3,option 3,option 5,742
+What measurements does the UE need to make in RRC_IDLE mode for E-CID? [3GPP Release 14],question 4234,Standards overview,14,False,False,Option 3,option 3,option 1,750
+How is power saving enabled during active-time? [3GPP Release 17],question 4242,Standards specifications,17,False,False,Option 4,option 2,option 1,753
+What is the purpose of the MPS system? [3GPP Release 18],question 4282,Standards specifications,18,False,False,Option 2,option 2,option 1,758
+Which carrier has the highest cell reselection priority for sidelink operation? [3GPP Release 17],question 4293,Standards specifications,17,False,False,Option 2,option 2,option 1,759
+Which group focuses on defining and parameterizing emerging usage scenarios for mmWave propagation channels? [3GPP Release 17],question 4314,Standards specifications,17,False,False,Option 2,option 2,option 5,765
+What is the role of the Master RAN Node in Dual Connectivity? [3GPP Release 18],question 4328,Standards specifications,18,False,False,Option 5,option 5,option 3,768
+What criteria are considered for network broadcast capacity assignment? [3GPP Release 18],question 4372,Standards specifications,18,False,False,Option 3,option 3,option 1,777
+How is the relationship between radiation field and power pattern defined in general? [3GPP Release 17],question 4397,Standards specifications,17,False,False,Option 4,option 4,option 2,780
+What does the eNodeB use the selected core network information for? [3GPP Release 17],question 4401,Standards specifications,17,False,False,Option 3,option 3,option 4,782
+What is the purpose of the TRMS metric in LTE? [3GPP Release 14],question 4431,Standards specifications,14,False,False,Option 3,option 2,option 1,785
+What transmission technique is used to multiplex transport channels using MBSFN and non-MBSFN transmission? [3GPP Release 17],question 4468,Standards specifications,17,False,False,Option 4,option 4,option 3,790
+What is the potential impact of UE/TRP PCO errors on NR carrier phase positioning accuracy? [3GPP Release 18],question 4548,Standards specifications,18,False,False,Option 2,option 2,option 5,806
+What are the TDL models used for? [3GPP Release 17],question 4581,Standards specifications,17,False,False,Option 1,option 1,option 3,813
+Which interface is used to forward short messages in the network with the GLR in case of SMS transfer over GPRS? [3GPP Release 17],question 4620,Standards specifications,17,False,False,Option 2,option 2,option 4,822
+Which signaling procedure is introduced to support SL Positioning? [3GPP Release 18],question 4632,Standards specifications,18,False,False,Option 2,option 2,option 5,823
+What are the main control functions of automated control systems? [3GPP Release 19],question 4677,Standards specifications,19,False,False,Option 2,option 2,option 1,831
+What is the purpose of MBMS-APIs? [3GPP Release 14],question 4683,Standards overview,14,False,False,Option 2,option 2,option 1,834
+What does BA stand for in the context of RRC? [3GPP Release 18],question 4687,Standards specifications,18,False,False,Option 3,option 3,option 5,835
+What mobility is supported in handover with SRVCC operation? [3GPP Release 18],question 4688,Standards specifications,18,False,False,Option 5,option 1,option 3,836
+What is the limitation of indirect data forwarding for the user plane in inter-System data forwarding from EPS to 5GS? [3GPP Release 17],question 4718,Standards specifications,17,False,False,Option 5,option 1,option 3,840
+What does a UE monitor for detection of DCI format 0_0 or DCI format 1_0 with CRC scrambled by C-RNTI for scheduling respective PUSCH transmissions or PDSCH receptions? [3GPP Release 17],question 4762,Standards specifications,17,False,False,Option 1,option 5,option 4,845
+What is included in the cancellation of a PUSCH transmission for a serving cell? [3GPP Release 17],question 4803,Standards specifications,17,False,False,Option 3,option 4,option 1,851
+What is the purpose of the Network notification objective introduced by MUSIM for LTE/NR? [3GPP Release 17],question 4812,Standards overview,17,False,False,Option 2,option 2,option 4,852
+Which of the following is NOT supported by PDCP packet duplication? [3GPP Release 15],question 4881,Standards overview,15,False,False,Option 1,option 1,option 3,864
+What is the role of Management Data Analytics Service (MDAS) in the MDA? [3GPP Release 17],question 4893,Standards specifications,17,False,False,Option 2,option 2,option 1,865
+Which entity takes precedence in determining the User Plane Security Policy? [3GPP Release 18],question 4918,Standards specifications,18,False,False,Option 1,option 1,option 4,869
+Which delivery option(s) are available in Data Delivery via the DCCF or NWDAF? [3GPP Release 18],question 4931,Standards specifications,18,False,False,Option 3,option 3,option 1,872
+What does NWDAF provide to consumer NF or OAM based on the collected network data? [3GPP Release 18],question 4946,Standards specifications,18,False,False,Option 2,option 2,option 5,874
+What is the behavior of a mobile station in the MM IDLE state with service state NO IMSI? [3GPP Release 18],question 4958,Standards specifications,18,False,False,Option 4,option 4,option 2,877
+What is the minimum requirement for OTA occupied bandwidth for each carrier? [3GPP Release 18],question 4992,Standards specifications,18,False,False,Option 1,option 3,option 2,882
+Which state exists when the network has received an answer but the network has not yet awarded the call? [3GPP Release 18],question 5003,Standards specifications,18,False,False,Option 2,option 2,option 1,884
+How can UE power saving be achieved in RRC_IDLE/RRC_INACTIVE? [3GPP Release 17],question 5034,Standards specifications,17,False,False,Option 3,option 3,option 2,887
+Which measurements are performed for intra- and inter-frequency handover? [3GPP Release 17],question 5056,Standards specifications,17,False,False,Option 4,option 4,option 2,888
+In what market sector are 3GPP networks expected to become an important tool? [3GPP Release 17],question 5067,Standards specifications,17,False,False,Option 4,option 5,option 2,892
+Which of the following is true about cell reselection between NR RRC_IDLE and E-UTRA RRC_IDLE? [3GPP Release 17],question 5087,Standards specifications,17,False,False,Option 1,option 1,option 3,898
+What message does the UE respond with after receiving the RRCSetup message? [3GPP Release 17],question 5091,Standards specifications,17,False,False,Option 1,option 1,option 3,899
+What is AKMA in the context of 5G security? [3GPP Release 17],question 5108,Standards overview,17,False,False,Option 4,option 4,option 2,900
+What does the SMF do before retrieving PFDs from the NEF (PFDF)? [3GPP Release 18],question 5135,Standards specifications,18,False,False,Option 4,option 3,option 2,905
+What control does the UE subscriber have over privacy for value-added services? [3GPP Release 17],question 5244,Standards specifications,17,False,False,Option 2,option 2,option 3,923
+What does the NWDAF provide in the response or notification on 'QoS Sustainability'? [3GPP Release 18],question 5247,Standards specifications,18,False,False,Option 5,option 5,option 3,925
+What does the UE CONTEXT MODIFICATION REQUEST message include in the intra-CU topology adaptation procedure in SA? [3GPP Release 17],question 5255,Standards specifications,17,False,False,Option 2,option 5,option 1,926
+What is the purpose of the enhancement of the 3GPP management system? [3GPP Release 16],question 5318,Standards overview,16,False,False,Option 5,option 3,option 4,933
+What does the UE assume about the DL PRS from the serving cell? [3GPP Release 17],question 5325,Standards specifications,17,False,False,Option 1,option 1,option 2,935
+Where is the PCI Optimization Function specified? [3GPP Release 17],question 5379,Standards specifications,17,False,False,Option 4,option 2,option 3,941
+What is used for power control in sidelink? [3GPP Release 17],question 5392,Standards specifications,17,False,False,Option 2,option 2,option 4,945
+What is the purpose of the X2 interface in Dual Connectivity? [3GPP Release 17],question 5416,Standards specifications,17,False,False,Option 2,option 2,option 1,947
+Which state exists when the mobile station has received an indication that remote user alerting has been initiated? [3GPP Release 18],question 5445,Standards specifications,18,False,False,Option 3,option 3,option 1,951
+What is the symbol duration determined by a UE for PDCCH monitoring? [3GPP Release 17],question 5496,Standards specifications,17,False,False,Option 2,option 2,option 1,967
+What accuracy of relative lateral positioning does the 3GPP system support according to requirement R.5.1-007? [3GPP Release 17],question 5581,Standards specifications,17,False,False,Option 2,option 2,option 1,976
+What is supported for handover between gNB and ng-eNB? [3GPP Release 18],question 5601,Standards specifications,18,False,False,Option 5,option 5,option 3,979
+What is the purpose of the spatial filter in generating TDL channel models? [3GPP Release 17],question 5614,Standards specifications,17,False,False,Option 2,option 2,option 4,985
+What is the purpose of Federated Learning (FL) in the NWDAF? [3GPP Release 18],question 5638,Standards specifications,18,False,False,Option 4,option 4,option 3,991
+What are the steps needed to generate TDL models? [3GPP Release 17],question 5650,Standards specifications,17,False,False,Option 4,option 4,option 1,993
+What does the gNB do with the UE UTRA-FDD capabilities? [3GPP Release 18],question 5675,Standards specifications,18,False,False,Option 1,option 1,option 5,998
+What is the purpose of steering of access in the Evolved Packet System? [3GPP Release 17],question 5681,Standards specifications,17,False,False,Option 4,option 4,option 5,999
+What additional information is reported to the NAS if the UE supports E-UTRA connected to 5GC? [3GPP Release 17],question 5697,Standards specifications,17,False,False,Option 1,option 2,option 3,1003
+What action should the UE take if a cell is indicated as 'barred' for cell selection/reselection? [3GPP Release 17],question 5725,Standards specifications,17,False,False,Option 1,option 1,option 5,1007
+Which access class value is assigned to Multimedia Priority Service? [3GPP Release 18],question 5791,Standards specifications,18,False,False,Option 12,option 11,option 5,1018
+Which test method uses the fixed TPMI index for EIRP measurement? [3GPP Release 18],question 5797,Standards specifications,18,False,False,Option 1,option 1,option 5,1020
+When is PSCell information reported by the NG-RAN? [3GPP Release 18],question 5802,Standards specifications,18,False,False,Option 3,option 3,option 1,1021
+"What do the angles bearing, downtilt, and slant represent? [3GPP Release 18]",question 5810,Standards specifications,18,False,False,Option 4,option 4,option 1,1023
+What does redundant transmission on N3/N9 interfaces in URLLC aim to enhance? [3GPP Release 18],question 5827,Standards specifications,18,False,False,Option 1,option 5,option 2,1028
+What are the power components recommended to be considered for RRM measurement power saving evaluation in the IDLE/INACTIVE state? [3GPP Release 16],question 5832,Standards specifications,16,False,False,Option 5,option 3,option 1,1029
+What is the purpose of the Edge Enabler Client (EEC) in enabling edge applications? [3GPP Release 17],question 5952,Standards overview,17,False,False,Option 3,option 3,option 5,1053
+What are the communication attributes in automation? [3GPP Release 19],question 5981,Standards specifications,19,False,False,Option 2,option 2,option 1,1059
+What is the purpose of 5G Access Stratum-based Time Distribution? [3GPP Release 18],question 5986,Standards specifications,18,False,False,Option 1,option 1,option 2,1062
+Who subscribes to analytics information of Application AI/ML traffic transmission status from the NWDAF? [3GPP Release 18],question 6006,Standards specifications,18,False,False,Option 2,option 3,option 4,1068
+What determines if an IAB-DU cell can transmit or receive on a symbol configured as a soft type? [3GPP Release 17],question 6036,Standards specifications,17,False,False,Option 3,option 3,option 2,1076
+Which charging architecture is used for 5G Data Connectivity in Phase 1 of the 5G System Architecture? [3GPP Release 18],question 6115,Standards specifications,18,False,False,Option 2,option 2,option 4,1094
+What power value is recommended for loop convergence / time-frequency tracking in the IDLE/INACTIVE state? [3GPP Release 16],question 6124,Standards specifications,16,False,False,Option 2,option 4,option 5,1096
+How does Indirect 3GPP Communication impact power consumption? [3GPP Release 17],question 6196,Standards specifications,17,False,False,Option 4,option 4,option 2,1112
+What information is provided by the SMF to the UPF during the N4 Session Establishment procedure? [3GPP Release 18],question 6216,Standards specifications,18,False,False,Option 2,option 1,option 3,1119
+What is the required input for the Ndccf_ContextManagement_Update service operation? [3GPP Release 18],question 6237,Standards specifications,18,False,False,Option 2,option 1,option 4,1123
+"For operation with RTT-based propagation delay compensation, how can the UE be configured? [3GPP Release 17]",question 6253,Standards specifications,17,False,False,Option 3,option 3,option 1,1126
+What are the possible ordering criteria for the list of Network Performance information? [3GPP Release 18],question 6356,Standards specifications,18,False,False,Option 2,option 2,option 1,1140
+Which logical architectures correspond to LIPA? [3GPP Release 17],question 6396,Standards specifications,17,False,False,Option 1,option 1,option 3,1149
+What is the purpose of ACDC (Application Specific Congestion control for Data Communication)? [3GPP Release 18],question 6452,Standards specifications,18,False,False,Option 1,option 1,option 3,1157
+What security measure does the 3GPP system support to protect the transmission for a V2X application? [3GPP Release 17],question 6476,Standards specifications,17,False,False,Option 1,option 2,option 3,1161
+What parameter determines the maximum energy detection threshold? [3GPP Release 17],question 6486,Standards specifications,17,False,False,Option 2,option 2,option 3,1163
+What is the main distinguishing factor between UMTS QoS classes? [3GPP Release 17],question 6576,Standards specifications,17,False,False,Option 1,option 1,option 3,1168
+What can influence the variations on per-instance NF load and resource usage? [3GPP Release 18],question 6587,Standards specifications,18,False,False,Option 2,option 2,option 5,1172
+When can CA be configured for DCP? [3GPP Release 18],question 6651,Standards specifications,18,False,False,Option 4,option 4,option 1,1190
+What determines the completeness of charging information in IMS? [3GPP Release 18],question 6706,Standards specifications,18,False,False,Option 2,option 2,option 1,1200
+A UE monitors PDCCH for scheduling PDSCH receptions for which types of transmissions? [3GPP Release 17],question 6721,Standards specifications,17,False,False,Option 1,option 1,option 4,1202
+What is the purpose of Service Enabler Architecture Layer (SEAL)? [3GPP Release 17],question 6737,Standards overview,17,False,False,Option 3,option 3,option 1,1206
+What is the role of the Core Network Bearer Service? [3GPP Release 17],question 6752,Standards specifications,17,False,False,Option 3,option 3,option 1,1211
+"In a shared UTRAN/GERAN network, what does the RAN node do when the UE is allowed to attach? [3GPP Release 17]",question 6763,Standards specifications,17,False,False,Option 4,option 2,option 1,1216
+How does the BSC indicate the selected core network operator to the CN for supporting UEs? [3GPP Release 17],question 6781,Standards specifications,17,False,False,Option 2,option 2,option 4,1221
+Which aspects of the Model Training function are out of RAN3 scope? [3GPP Release 17],question 6859,Standards specifications,17,False,False,Option 4,option 4,option 3,1233
+What is the default treatment for positioning requests? [3GPP Release 17],question 6882,Standards specifications,17,False,False,Option 4,option 4,option 2,1235
+"What is the purpose of sequence and cyclic shift hopping in PUCCH formats 0, 1, 3, and 4? [3GPP Release 17]",question 6923,Standards specifications,17,False,False,Option 1,option 1,option 4,1241
+What is the purpose of the work item for Non-IP for Cellular IoT for EC-EGPRS? [3GPP Release 14],question 6965,Standards overview,14,False,False,Option 2,option 2,option 1,1245
+What is one of the requirements for differentiated paging in the Evolved Packet System? [3GPP Release 17],question 6977,Standards specifications,17,False,False,Option 3,option 3,option 5,1247
+Under what conditions will a UE provide a valid CSI report for the n-th triggered report? [3GPP Release 17],question 7012,Standards specifications,17,False,False,Option 2,option 2,option 1,1251
+"What does ThreshBackhRateDLWLAN, Low represent? [3GPP Release 17]",question 7022,Standards specifications,17,False,False,Option 4,option 4,option 5,1252
+What is the duration of a frame in the downlink? [3GPP Release 18],question 7024,Standards specifications,18,False,False,Option 1,option 1,option 4,1253
+Which high-level EE KPIs are used to calculate the energy efficiency of 5G networks? [3GPP Release 18],question 7077,Standards specifications,18,False,False,Option 2,option 2,option 1,1260
+What lists can be stored on the SIM/USIM card for network selection? [3GPP Release 18],question 7094,Standards specifications,18,False,False,Option 1,option 1,option 3,1264
+Which architecture can support local breakout roaming? [3GPP Release 18],question 7095,Standards specifications,18,False,False,Option 3,option 3,option 4,1265
+What is the purpose of the Backbone Network Service? [3GPP Release 17],question 7166,Standards specifications,17,False,False,Option 3,option 3,option 4,1270
+What is the range of frequencies for the operating band unwanted emissions? [3GPP Release 18],question 7188,Standards specifications,18,False,False,Option 1,option 1,option 2,1274
+What is the purpose of a Local Coordinate System (LCS) in the context of a Global Coordinate System (GCS)? [3GPP Release 17],question 7194,Standards specifications,17,False,False,Option 3,option 2,option 5,1275
+What is the channel coding scheme used for transport blocks in LTE? [3GPP Release 17],question 7242,Standards specifications,17,False,False,Option 1,option 1,option 3,1280
+Where is the Charging Trigger Function (CTF) located in the distributed CTF architecture for offline charging? [3GPP Release 18],question 7252,Standards specifications,18,False,False,Option 4,option 4,option 1,1281
+Which measurements are agreed to be introduced for SL Positioning using SL PRS measurements? [3GPP Release 18],question 7267,Standards specifications,18,False,False,Option 2,option 2,option 4,1284
+When is AS security applied in the SDT procedure? [3GPP Release 18],question 7296,Standards specifications,18,False,False,Option 1,option 4,option 2,1288
+What is the typical height of base stations in the UMi scenario? [3GPP Release 17],question 7310,Standards specifications,17,False,False,Option 5,option 5,option 1,1290
+What information does the EAS address and DNAI Mapping Information record in UDR provide? [3GPP Release 18],question 7315,Standards specifications,18,False,False,Option 3,option 3,option 2,1292
+What is the purpose of the gNB-CU in the NG-RAN architecture? [3GPP Release 17],question 7330,Standards specifications,17,False,False,Option 3,option 3,option 1,1293
+What is the maximum number of MR-DC combinations for IDC? [3GPP Release 17],question 7370,Standards specifications,17,False,False,Option 4,option 4,option 3,1300
+What can the Hosting E-UTRAN/NG-RAN Operator control in terms of resource usage? [3GPP Release 18],question 7385,Standards specifications,18,False,False,Option 4,option 4,option 1,1303
+What does the tdd-UL-DL-ConfigurationCommon provide? [3GPP Release 17],question 7399,Standards specifications,17,False,False,Option 1,option 3,option 2,1306
+How is the packet delay measured for a QoS Flow in URLLC? [3GPP Release 18],question 7415,Standards specifications,18,False,False,Option 1,option 1,option 3,1310
+What can a UE be provided for scrambling the CRC of multicast DCI formats for scheduling PDSCH receptions? [3GPP Release 17],question 7428,Standards specifications,17,False,False,Option 2,option 2,option 1,1312
+Under what conditions can target UEs making an emergency call be positioned? [3GPP Release 17],question 7435,Standards specifications,17,False,False,Option 1,option 1,option 3,1314
+What message does the eNB send to perform redirection to another E-UTRAN frequency? [3GPP Release 14],question 7471,Standards overview,14,False,False,Option 2,option 2,option 5,1322
+What is the primary service state selected after power on? [3GPP Release 18],question 7482,Standards specifications,18,False,False,Option 2,option 4,option 3,1327
+What is the function of the Visitor Location Register (VLR)? [3GPP Release 17],question 7515,Standards specifications,17,False,False,Option 5,option 5,option 4,1336
+What is the purpose of the General requirements in the application layer architecture? [3GPP Release 18],question 7518,Standards specifications,18,False,False,Option 2,option 2,option 1,1338
+What are the steps involved in the procedure for NWDAF to derive slice load analytics? [3GPP Release 18],question 7561,Standards specifications,18,False,False,Option 1,option 1,option 2,1345
+How is SIPTO@LN PDN connection released in case of a handover with collocated L-GW? [3GPP Release 17],question 7587,Standards specifications,17,False,False,Option 3,option 3,option 5,1349
+When can Path update signaling related to Dual Connectivity and UPF re-allocation occur? [3GPP Release 18],question 7636,Standards specifications,18,False,False,Option 3,option 3,option 4,1359
+What does a supporting UE display as the network name in a shared network? [3GPP Release 17],question 7742,Standards specifications,17,False,False,Option 3,option 3,option 4,1378
+What inputs are required for the Nmfaf_3caDataManagement_Fetch service operation? [3GPP Release 18],question 7853,Standards specifications,18,False,False,Option 3,option 3,option 4,1397
+Which symbols are included in the last slots of a slot configuration period? [3GPP Release 17],question 7866,Standards specifications,17,False,False,Option 3,option 3,option 2,1400
+Which solutions have been specified to support highly reliable and low latency communication for LTE? [3GPP Release 18],question 7875,Standards specifications,18,False,False,Option 2,option 2,option 1,1403
+Which protocol(s) crossing the Ro reference point should support real-time transactions? [3GPP Release 18],question 7878,Standards specifications,18,False,False,Option 2,option 2,option 4,1405
+Which transmission scheme is used for PDSCH? [3GPP Release 18],question 7884,Standards specifications,18,False,False,Option 2,option 4,option 3,1407
+What is the purpose of PC5-RRC in NR V2X sidelink? [3GPP Release 16],question 7913,Standards overview,16,False,False,Option 4,option 4,option 3,1409
+What happens when a PDU Session with UP confidentiality protection set to Required is handed over to EPS? [3GPP Release 18],question 7929,Standards specifications,18,False,False,Option 3,option 4,option 5,1412
+In which phase does MDA identify ongoing issues and potential risks? [3GPP Release 17],question 7956,Standards specifications,17,False,False,Option 2,option 1,option 5,1415
+What operation does the UDM use to acknowledge the UE-AMF received the Steering of Roaming information? [3GPP Release 18],question 7975,Standards specifications,18,False,False,Option 1,option 1,option 2,1419
+What is the max SNR increase for 66 PRB allocation compared to 264 PRBs? [3GPP Release 18],question 7999,Standards specifications,18,False,False,Option 2,option 3,option 4,1424
+How does the network provide the paging cause field for voice service to a Multi-USIM UE? [3GPP Release 17],question 8027,Standards overview,17,False,False,Option 2,option 2,option 5,1427
+What determines the configuration of Dual Connectivity for a Data Radio Bearer? [3GPP Release 18],question 8028,Standards specifications,18,False,False,Option 1,option 1,option 2,1428
+When does a mobile station enter the GMM-DEREGISTERED state? [3GPP Release 18],question 8064,Standards specifications,18,False,False,Option 3,option 2,option 4,1433
+What is the power saving gain range for the power saving schemes with UE adaptation to BWP switching? [3GPP Release 16],question 8082,Standards specifications,16,False,False,Option 2,option 2,option 4,1437
+"Which specifications define the charging scenario, charging functionalities, and the Message format of the Common Data structure of Charging Data in the 5G system architecture? [3GPP Release 15]",question 8086,Standards overview,15,False,False,Option 2,option 2,option 1,1439
+What can be used for intra-system inter-RAT handover if the UE is connected to the 5GC of the source E-UTRA cell? [3GPP Release 17],question 8096,Standards specifications,17,False,False,Option 3,option 3,option 1,1440
+What does the UE provide to the AS for slice aware cell reselection? [3GPP Release 17],question 8114,Standards overview,17,False,False,Option 2,option 2,option 5,1445
+When can a gNB transmit a DL transmission(s) on a channel after initiating a channel occupancy? [3GPP Release 17],question 8138,Standards specifications,17,False,False,Option 2,option 1,option 3,1449
+What is the purpose of a Local Coordinate System (LCS)? [3GPP Release 18],question 8210,Standards specifications,18,False,False,Option 2,option 2,option 3,1458
+What is the purpose of the Non-Uniform TRP Measurement Grids? [3GPP Release 18],question 8231,Standards specifications,18,False,False,Option 1,option 1,option 2,1464
+What functions should the eMBMS service layer support for TV services? [3GPP Release 18],question 8307,Standards specifications,18,False,False,Option 4,option 4,option 3,1475
+"What does a '1' value for the Wake-up indication bit, when reported to higher layers, indicate? [3GPP Release 17]",question 8314,Standards specifications,17,False,False,Option 2,option 2,option 4,1478
+What is the purpose of the NWDAF in the charging architecture? [3GPP Release 18],question 8318,Standards specifications,18,False,False,Option 3,option 3,option 2,1479
+What is the default media handling capability of the IMS Multimedia Telephony service? [3GPP Release 17],question 8361,Standards specifications,17,False,False,Option 3,option 3,option 1,1488
+What function in NG-RAN supports the positioning functionality? [3GPP Release 17],question 8364,Standards specifications,17,False,False,Option 5,option 5,option 4,1491
+Where does AI/ML functionality reside within the current RAN architecture? [3GPP Release 17],question 8396,Standards specifications,17,False,False,Option 3,option 3,option 4,1496
+What service does AF invoke to request the DNAI information? [3GPP Release 18],question 8405,Standards specifications,18,False,False,Option 1,option 1,option 4,1499
+Which access control mechanism specifically applies to CSFB? [3GPP Release 18],question 8411,Standards specifications,18,False,False,Option 3,option 2,option 1,1500
+What is the purpose of a Topological Service Area? [3GPP Release 18],question 8426,Standards specifications,18,False,False,Option 5,option 1,option 3,1502
+What is the purpose of the DTX/DRX enhancements in CELL_FACH state? [3GPP Release 14],question 8460,Standards specifications,14,False,False,Option 2,option 2,option 1,1509
+Which reference channels are used to specify the radiated performance requirements for the SAN? [3GPP Release 18],question 8499,Standards specifications,18,False,False,Option 4,option 4,option 2,1514
+What causes the UE to fail the mobility from NR procedure? [3GPP Release 17],question 8546,Standards specifications,17,False,False,Option 1,option 1,option 2,1522
+What is the maximum number of UEs that an RSU can communicate with according to requirement R.5.1-022? [3GPP Release 17],question 8598,Standards specifications,17,False,False,Option 2,option 2,option 4,1529
+What are the requirements for network and system selection for multi-mode terminals with 3GPP capability? [3GPP Release 18],question 8638,Standards specifications,18,False,False,Option 2,option 4,option 1,1539
+What is the purpose of exposing monitoring and status information of an AI-ML session to a third-party AI/ML application? [3GPP Release 17],question 8641,Standards specifications,17,False,False,Option 3,option 3,option 5,1541
+How can the relay UE selection criteria preferences be configured in the Evolved ProSe Remote UE? [3GPP Release 17],question 8665,Standards specifications,17,False,False,Option 4,option 4,option 5,1547
+Which function is responsible for supporting RNs? [3GPP Release 17],question 8672,Standards specifications,17,False,False,Option 3,option 3,option 1,1548
+What are the two types of reference points for SAN type 1-H? [3GPP Release 18],question 8694,Standards specifications,18,False,False,Option 2,option 2,option 1,1553
+"In a GERAN based MOCN configuration, when does a cell with closed/hybrid access need to coordinate the CSG IDs between the operators' PLMNs? [3GPP Release 17]",question 8696,Standards specifications,17,False,False,Option 2,option 3,option 1,1554
+What does a UE expect when it cancels a PUSCH or an SRS transmission? [3GPP Release 17],question 8703,Standards specifications,17,False,False,Option 4,option 4,option 1,1555
+What is the reference point between the PDG and a packet data network? [3GPP Release 17],question 8808,Standards specifications,17,False,False,Option 1,option 1,option 5,1571
+How are serving cells configured in terms of DRX groups? [3GPP Release 17],question 8833,Standards specifications,17,False,False,Option 5,option 2,option 3,1573
+What is the characteristic of handover with SRVCC operation? [3GPP Release 17],question 8862,Standards specifications,17,False,False,Option 2,option 2,option 1,1576
+What can be applied to a delay-scaled CDL model to model the effect of beamforming in a simplified way? [3GPP Release 18],question 8885,Standards specifications,18,False,False,Option 2,option 2,option 4,1583
+What does NG-RAN support for Non-Public Networks (NPN)? [3GPP Release 17],question 8946,Standards specifications,17,False,False,Option 2,option 2,option 5,1589
+What is the length of the window in number of slots for Type-2 random access procedure? [3GPP Release 17],question 8962,Standards specifications,17,False,False,Option 2,option 2,option 5,1596
+What is the default Traffic type of interest if not provided? [3GPP Release 18],question 8965,Standards specifications,18,False,False,Option 2,option 4,option 1,1598
+What does the MME indicate to the UE in the GUTI? [3GPP Release 17],question 8981,Standards specifications,17,False,False,Option 3,option 1,option 5,1601
+Who is responsible for the event-based or time-based decision process in order for all services to be regarded as periodic location reporting? [3GPP Release 17],question 9030,Standards specifications,17,False,False,Option 2,option 2,option 3,1611
+What is the purpose of service reachability in the Evolved Packet System? [3GPP Release 17],question 9046,Standards specifications,17,False,False,Option 4,option 4,option 5,1613
+Which of the following solutions have been specified for providing highly reliable and low latency communication for LTE? [3GPP Release 15],question 9048,Standards overview,15,False,False,Option 4,option 1,option 3,1614
+Which interface is used by NWDAF to request subscription to data delivery? [3GPP Release 18],question 9050,Standards specifications,18,False,False,Option 2,option 3,option 1,1615
+What network architecture should be supported? [3GPP Release 17],question 9073,Standards specifications,17,False,False,Option 4,option 4,option 3,1618
+What is the maximum number of DL band combinations? [3GPP Release 17],question 9174,Standards specifications,17,False,False,Option 128,option 4,option 5,1636
+What does the UE consider a DCI format 1_1 as indicating? [3GPP Release 17],question 9219,Standards specifications,17,False,False,Option 3,option 2,option 4,1644
+"In online charging with reservation, what happens if the resource usage execution fails? [3GPP Release 18]",question 9237,Standards specifications,18,False,False,Option 1,option 1,option 2,1648
+What is the maximum allowable deviation from the manufacturer claimed EIRP level for a specific beam peak direction? [3GPP Release 18],question 9264,Standards specifications,18,False,False,Option 2,option 5,option 3,1655
+Which mechanism allows ProSe UE to UE communications for off-network operations in MC services? [3GPP Release 14],question 9268,Standards overview,14,False,False,Option 2,option 2,option 1,1656
+What happens when the network cannot provide the required QoS for a data service? [3GPP Release 18],question 9277,Standards specifications,18,False,False,Option 1,option 4,option 2,1658
+Which 3GPP specification specifies the User Equipment (UE) to V2X control function protocol aspects? [3GPP Release 14],question 9305,Standards overview,14,False,False,Option 3,option 4,option 1,1664
+What standardized QCI values can be used for unicast delivery of V2X messages over LTE-Uu? [3GPP Release 14],question 9317,Standards overview,14,False,False,Option 1,option 1,option 2,1667
+What type of analytics can NWDAF generate? [3GPP Release 18],question 9359,Standards specifications,18,False,False,Option 5,option 1,option 2,1675
+What regulatory obligations can a Participating Operator have regarding PWS support? [3GPP Release 18],question 9394,Standards specifications,18,False,False,Option 4,option 4,option 1,1684
+How does a UE determine the power for a PSCCH transmission in a PSCCH-PSSCH transmission occasion? [3GPP Release 17],question 9396,Standards specifications,17,False,False,Option 4,option 1,option 3,1685
+What does the cell identity of the Primary cell in the Secondary RAN node indicate? [3GPP Release 18],question 9400,Standards specifications,18,False,False,Option 5,option 5,option 4,1686
+What is the purpose of the Target NSSAI for NG-RAN? [3GPP Release 17],question 9507,Standards overview,17,False,False,Option 2,option 2,option 4,1705
+Which organization is responsible for the development of the QuaDRiGa channel model? [3GPP Release 17],question 9511,Standards specifications,17,False,False,Option 2,option 2,option 5,1706
+What is the purpose of PLMN selection in the UE? [3GPP Release 17],question 9516,Standards specifications,17,False,False,Option 3,option 3,option 4,1707
+What is the purpose of UE categories in NR? [3GPP Release 18],question 9533,Standards specifications,18,False,False,Option 1,option 1,option 2,1710
+Can the home operator re-allow selection of a radio technology on a UE that has been previously disallowed? [3GPP Release 18],question 9545,Standards specifications,18,False,False,Option 1,option 1,option 2,1711
+How many lists of 3GPP PS Data Off Exempt Services can a UE be configured with? [3GPP Release 18],question 9557,Standards specifications,18,False,False,Option 2,option 2,option 1,1714
+How is PDCCH skipping configured for UE power saving in connected mode? [3GPP Release 17],question 9585,Standards overview,17,False,False,Option 4,option 4,option 1,1717
+What is the purpose of the Quick release of RRC connection feature in NB-IoT? [3GPP Release 15],question 9595,Standards overview,15,False,False,Option 3,option 3,option 5,1720
+Which component invokes the Nnef_PFDManagement_Create/Update/Delete service? [3GPP Release 18],question 9607,Standards specifications,18,False,False,Option 2,option 2,option 4,1723
+When can the LCS server inform the target UE about the activation of Periodic Location Reporting? [3GPP Release 17],question 9612,Standards specifications,17,False,False,Option 1,option 1,option 4,1725
+What is the role of NF Sets in network reliability? [3GPP Release 18],question 9637,Standards specifications,18,False,False,Option 1,option 1,option 3,1732
+How does the DCCF determine the NF instance that can be a Data Source? [3GPP Release 18],question 9641,Standards specifications,18,False,False,Option 1,option 1,option 3,1733
+Which test system is impacted by off-focus antenna? [3GPP Release 18],question 9674,Standards specifications,18,False,False,Option 4,option 2,option 3,1740
+Is the user able to re-enable use of a radio technology on a UE that has been previously disallowed? [3GPP Release 18],question 9707,Standards specifications,18,False,False,Option 1,option 1,option 2,1747
+Is a subscription profile necessary for certain authorized LCS Clients internal to the PLMN? [3GPP Release 17],question 9710,Standards specifications,17,False,False,Option 1,option 1,option 2,1749
+What type of frequency hopping can improve positioning performance for RedCap UEs in FR2 InF-SH scenario? [3GPP Release 18],question 9738,Standards specifications,18,False,False,Option 3,option 3,option 2,1754
+What does a Multi-USIM UE do when it receives a Voice Service Indication in the NGAP Paging Message from the AMF? [3GPP Release 18],question 9777,Standards specifications,18,False,False,Option 2,option 2,option 4,1764
+Which relaxation criteria should be treated with higher priority in RRM measurement relaxation? [3GPP Release 16],question 9781,Standards specifications,16,False,False,Option 1,option 1,option 3,1766
+"According to the document, how should the behaviour of IMS supplementary services be perceived by the user? [3GPP Release 17]",question 9791,Standards specifications,17,False,False,Option 1,option 3,option 2,1767
+What does GLR stand for? [3GPP Release 17],question 9836,Standards specifications,17,False,False,Option 3,option 3,option 5,1777
+When can a UE receive multiple PDCCHs indicating the presence of TRS resource sets? [3GPP Release 17],question 9889,Standards specifications,17,False,False,Option 5,option 4,option 3,1791
+Which scenario is characterized by high requirements on the communications system regarding communication service availability? [3GPP Release 17],question 9894,Standards specifications,17,False,False,Option 5,option 3,option 4,1793
+What does the Ethernet transport service support in terms of traffic filtering and prioritization? [3GPP Release 17],question 9944,Standards specifications,17,False,False,Option 4,option 4,option 2,1800
+What is the purpose of Analytics/ML Model Accuracy Monitoring? [3GPP Release 18],question 9974,Standards specifications,18,False,False,Option 2,option 2,option 3,1805
+What are the physical-layer cell identities for 5G NR? [3GPP Release 17],question 9999,Standards specifications,17,False,False,Option 2,option 2,option 4,1809

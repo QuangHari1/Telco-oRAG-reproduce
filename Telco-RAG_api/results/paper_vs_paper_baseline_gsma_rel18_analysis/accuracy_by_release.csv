@@ -1,0 +1,7 @@
+dimension,group,questions,paper_accuracy,baseline_accuracy,accuracy_delta_baseline_minus_paper,both_correct,paper_only,baseline_only,both_wrong
+3GPP release,18,780,0.6,0.7641,0.1641,429,39,167,145
+3GPP release,17,733,0.6153,0.7121,0.0969,412,39,110,172
+3GPP release,14,139,0.6547,0.8201,0.1655,86,5,28,20
+3GPP release,16,87,0.6667,0.7356,0.069,50,8,14,15
+3GPP release,15,54,0.6481,0.8148,0.1667,35,0,9,10
+3GPP release,19,17,0.6471,0.7059,0.0588,11,0,1,5

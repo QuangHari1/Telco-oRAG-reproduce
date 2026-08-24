@@ -35,3 +35,4 @@ global_settings = Dynaconf(
 
 def get_settings():
     return global_settings
+Đang cài dependency vẽ biểu đồ để test report thật trên 200 câu đã match. Việc này chỉ tải package Python, không gọi model/API benchmark.

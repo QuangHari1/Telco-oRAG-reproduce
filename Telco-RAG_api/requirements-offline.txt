@@ -5,6 +5,7 @@ numpy>=1.26,<3
 torch>=2.2
 faiss-cpu>=1.8
 huggingface-hub>=1.0
+matplotlib>=3.8
 python-docx>=1.1
 doc2docx>=0.2
 tqdm>=4.66
