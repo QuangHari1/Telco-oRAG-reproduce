@@ -7,6 +7,7 @@ dependencies = [
   "doc2docx>=0.2",
   "dynaconf>=3.2",
   "faiss-cpu>=1.8",
+  "huggingface-hub>=1.0",
   "numpy>=1.26,<3",
   "openai>=1.0,<2",
   "python-docx>=1.1",

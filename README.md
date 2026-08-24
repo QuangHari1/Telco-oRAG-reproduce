@@ -1,5 +1,15 @@
 # Telco-RAG: Retrieval-Augmented Generation for Telecommunications
 
+## Re-run the local offline baseline
+
+The reproducible, local-3GPP benchmark setup is documented in
+[Telco-RAG_api/PAPER_REPRODUCTION.md](Telco-RAG_api/PAPER_REPRODUCTION.md).
+It downloads pinned corpus and TeleQnA revisions, runs the two-pass offline
+retrieval path, and writes a resume-safe JSONL checkpoint. This is a modified
+offline reproduction, not a claim of numerical equivalence to the paper's
+tables: its dataset, hosted model, and MCQ scoring prompt are explicitly
+documented there.
+
 **Telco-RAG** is a specialized Retrieval-Augmented Generation (RAG) framework designed to address the unique challenges of the telecommunications industry, particularly in handling the complexity and rapid evolution of 3GPP documents.
 
 ## References
